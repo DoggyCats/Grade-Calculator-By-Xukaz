@@ -2,7 +2,7 @@
 # [JavaScript Grade-Calculator ver.thai lang](https://htmlpreview.github.io/?https://github.com/DoggyCats/Grade-Calculator-By-Xukaz/blob/bfd54f480fea5b154bd41491155a588f3a8da8cf/Grade%20Calculator%20by%20Xukaz.html)
 
 
-![โปรแกรมคำนวณเกรด by Xukaz](https://i.imgur.com/qAoNH7P.mp4)
+![โปรแกรมคำนวณเกรด by Xukaz](https://i.imgur.com/8QkhfMd.mp4)
 
 ฝึกเขียนโปรแกรมคำนวณเกรด สำหรับการเรียนรู้
 
