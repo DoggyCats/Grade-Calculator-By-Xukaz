@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>student calculate by Xukaz</title>
+    <!-- link for font  -->
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+crossorigin="anonymous">
+    <link
+      href=
+"https://fonts.googleapis.com/css?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+  <body>
+    <body class="bg-info">
+     <div class="container">
+      <div class="card card-body text-center mt-5 mb-6">
+        
+    <!-- main html  -->
+        <div class="container">
+            <h1>Student grade calculator</h1>
+            <div class="screen-body-item">
+                <div class="app">
+                    <div class="form-group">
+                        วิธีการใช้ให้คำนวณจากคะแนนเต็มร้อยของแต่ละวิชา เช่น วิชาที่1 ได้87 จาก100  ก็ใส่ 87 ครับ<br>
+                <!-- ตัวเลือกสำหรับการป้อนข้อมูล -->
+                <input
+                type="text"
+                class="form-control"
+                placeholder="โปรดกรอกคะแนนรายวิชา" 
+                id="sb1" 
+                />คำนวณจากคะแนนเต็ม100
+            </div>
+            <div class="form-group">
+                <input
+                type="text"
+                class="form-control"
+                placeholder="โปรดกรอกคะแนนรายวิชา"
+                id="sb2"
+                />คำนวณจากคะแนนเต็ม100
+            </div>
+            <div class="form-group">
+                <input
+                type="text"
+                class="form-control"
+                placeholder="โปรดกรอกคะแนนรายวิชา"
+                id="sb3"
+                />คำนวณจากคะแนนเต็ม100
+            </div>
+            <div class="form-group">
+                <input
+                type="text"
+                class="form-control"
+                placeholder="โปรดกรอกคะแนนรายวิชา"
+                id="sb4"
+                />คำนวณจากคะแนนเต็ม100
+            </div>
+            <div>
+                <input
+                type="button"
+                value="ดูผลลัพธ์"
+                class="form-button"
+                id="btn"
+                onclick="calculate()"
+                />
+              </div>
+              <!-- รูปโหลด ตอนกดปุ่ม-->
+              <div id="loading">
+                <img src="assets\img\loading.gif" alt="loading image">
+            </div>
+          </div>
+        </div>
+      <!-- ส่วนสำหรับเพื่อแสดงผล-->
+      <div class="form-group showdata">
+        <p id="showdata"></p>
+      </div>
+    </div>
+    <!--เพิ่มไฟล์จาวาสคริปต์ภายนอก-->
+    <script src="Xukaz.js"></script>
+    </div>
+   </div>
+  </body>
+</html>
