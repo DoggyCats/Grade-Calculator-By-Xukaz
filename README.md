@@ -12,9 +12,8 @@
 ### Technologies used: 
 
 + HTML5
-+ CSS3
 + javaScript
-+ Bootstrap 4
++ Bootstrap 4,Css
 
 ### User Stories: 
 
